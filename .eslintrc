@@ -1,0 +1,11 @@
+{
+    // 基本ルールairbnbから継承する
+    "extends": "airbnb-base",
+    // 出力後のファイルは対象に含めない
+    "ignorePatterns": ["scripts/**/*.js"],
+    // 上書きルール
+    "rules": {
+        // アドオン特有のアンダースコア表記は許可
+        "no-underscore-dangle": ["error", { "allow": ["__identifier__"] }]
+    }
+}

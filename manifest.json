@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Script template.",
+    "name": "Script template",
+    "uuid": "a6f1ffbf-c4dd-4aaa-89ea-26626f612d61",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "description": "use behavior pack module",
+      "type": "data",
+      "uuid": "b68e502d-e786-432a-8b16-0ec00507b5fe",
+      "version": [1, 0, 0]
+    },
+    {
+      "description": "use scripts module",
+      "type": "client_data",
+      "uuid": "be500fbe-63fa-48bc-9afe-28edf3c5656a",
+      "version": [1, 0, 0]
+    }
+  ]
+}

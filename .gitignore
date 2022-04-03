@@ -1,0 +1,4 @@
+# npmでインストールしたファイル
+node_modules
+# ビルド済みファイル
+scripts
